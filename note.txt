@@ -1,0 +1,8 @@
+[#0.2 Introduction and What are we building]
+TS는 JS 위에 있고 쓴건 다 JS로 변형됨
+
+[#0.3 Setting Typescript Up]
+tsconfig.json => TS에게 어떻게 JS로 변환하는지 알려줌
+"include" => 어떤 파일들이 컴파일 과정에 포함되는지
+Node.js는 TS를 이해하지 못해서 JS 코드로 컴파일하는 작업이 실행 전에 꼭 필요함!
+
