@@ -6,3 +6,29 @@ tsconfig.json => TS에게 어떻게 JS로 변환하는지 알려줌
 "include" => 어떤 파일들이 컴파일 과정에 포함되는지
 Node.js는 TS를 이해하지 못해서 JS 코드로 컴파일하는 작업이 실행 전에 꼭 필요함!
 
+[#0.4 First steps with Typescript]
+ERROR: Cannot redeclare block-scoped variable 'name'.
+=> 이 TS가 모듈이 된다고 알려주기 위해 export {}; 해줘야 됨
+TS는 JS와 달리 컴파일할 때 에러 알려줌!
+
+[#0.5 Types in Typescript]
+tsc-watch : 저장하면 자동으로 적용해서 컴파일하고 새로고침 해주는 툴!
+
+[#0.6 Interfaces on Typescript]
+interface는 JS로 변환 x
+블록체인을 할 때 한 블록을 I/F로 만들 수 있음
+
+[#0.7 Classes on Typescript part One]
+I/F를 JS에 넣고 싶을 때는 class를 사용
+특히 React, Express, Node 같은거 사용할 때 많이 쓰게 된다
+
+[#0.8 Blockchain Creating a Block]
+블록체인: 블록들을 연결한 것
+많은 함수와 많은 타입이 있을 때는 TS가 최고 => 오류를 줄여줌
+
+[#0.9 Creating a Block part Two]
+새로운 블록을 만들기 위해서는 해쉬를 계산해야 됨
+static method: method가 class 안에 있지만 클래스가 생성되지 않아도 호출할 수 있는 method
+
+[#0.11 Validating Block Structure]
+블록체인의 기반은 블록들이 자신의 전 블록으로의 링크가 있다는 것!
